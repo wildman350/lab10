@@ -24,5 +24,7 @@ drawpad.grid(row=0, column=1)
 
 # Insert your code here to draw the house!
 
-
+drawpad.create_rectangle(300,300,500,500)
+drawpad.create_line(300,300,400,200)
+drawpad.create_line(400,200,500,300)
 root.mainloop()
