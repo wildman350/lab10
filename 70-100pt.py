@@ -14,3 +14,15 @@
 
 # Minus 5pts if your code has no comments
 # Minus 10pts if you only commit once to github
+
+from Tkinter import *
+root = Tk()
+
+# Create the canvas widget
+drawpad = Canvas(root, width=800,height=600, background='white')
+drawpad.grid(row=0, column=1)
+
+# Insert your code here to draw the house!
+
+
+root.mainloop()
